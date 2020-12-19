@@ -1,1 +1,14 @@
-pls bounty 
+var a = [
+  "Bounty pls?",
+  "Any Updates?",
+  "No.... This is a valid bug",
+  "Bounty pls?????",
+  "You Taxi Driver!! This is a valid bug"
+];
+
+(function update(idx) {
+
+    $("#text").html(a[idx]);
+    setTimeout(update, 5000, ((++idx) % a.length));
+
+})(0); 
