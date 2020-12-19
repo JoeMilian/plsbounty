@@ -1,1 +1,32 @@
-pls bounty 	
+<html>
+	<script>
+		function myFunction(days) {
+  			document.getElementById('marks').innerHTML = '?'.repeat(days)
+		}
+	</script>
+
+	<body>
+		<h1> Payloads to put in reports to guarantee 5 min bounty $$$ </h1>
+		<ul>
+			<li>pls bounty</li>
+			<li>bounty pls</li>
+			<li>any update??? (extra question marks guarantee extra bounty)</li>
+			<li>proceed with the bounty</li>
+			<li>please i have a family think about me and award bounty</li>
+		</ul>
+
+		<h1> Question mark generator to put in your reports </h1>
+		This button will generate question marks based on the days that have passed since your last conversation with the triager
+		<br>
+
+
+		<textarea placeholder="Days"id='days'></textarea>
+
+		<br>
+		<button onclick="myFunction(parseInt(document.getElementById('days').value))">Generate question marks</button>
+		<br>
+		<textarea id='marks'></textarea>
+	</body>
+
+
+</html>
